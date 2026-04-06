@@ -10,6 +10,9 @@ public class Person {
       this.lastName = lastName;
       this.age = age;
    }
-
-   // Add your code here
+    public override string ToString()
+    {
+       return $"{firstName} {lastName} {age}"; 
+    }   
+ 
 }
